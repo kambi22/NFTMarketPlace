@@ -1,0 +1,413 @@
+.ColoredLight {
+   background-color: #5ba5f5;
+   color: rgb(252, 247, 232);
+}
+
+.ColoredDark {
+   background-color: #1f1f20 !important;
+   color: rgb(252, 247, 232);
+
+}
+
+.nav-link.ColoredLight {
+   background-color: #5ba5f5;
+   color: rgb(252, 247, 232);
+
+   margin-right: 6px;
+}
+
+.nav-link.ColoredDark {
+   background-color: #1f1f20 !important;
+   color: rgb(252, 247, 232);
+}
+
+.nav-dropdown.ColoredLight {
+   background-color: #5ba5f5;
+   color: rgb(252, 247, 232);
+}
+
+.nav-dropdown.ColoredDark {
+   background-color: #1f1f20 !important;
+   color: rgb(252, 247, 232);
+}
+
+.nav-link.ColoredLight:hover {
+   color: rgb(252, 247, 232);
+   /* Ensure color remains white */
+}
+
+.nav-link.ColoredDark:hover {
+   color: rgb(252, 247, 232);
+   /* Ensure color remains white */
+}
+
+.nav-link.ColoredLight:focus {
+   color: rgb(241, 238, 228)
+      /* Ensure color remains white */
+}
+
+.nav-link.ColoredDark:focus {
+   color: rgb(203, 200, 191);
+   /* Ensure color remains white */
+}
+
+
+.ColoredLight .MuiIconButton-root {
+   color: rgb(252, 247, 232);
+}
+
+.ColoredDark .MuiIconButton-root {
+   color: rgb(252, 247, 232);
+}
+
+.icon.Colored {
+   background-color: #5ba5f5;
+   color: white;
+}
+
+.listStyle {
+   list-style: none;
+   text-align: left;
+}
+
+.Footer {
+   position: relative;
+   width: 100%;
+   bottom: 0px;
+   font-size: 5x;
+   margin-bottom: 0px;
+
+}
+
+.Cardstyle {
+   max-width: 500px;
+   min-width: 200px;
+   text-align: center;
+   margin: auto;
+}
+
+.CardStyled {
+   max-width: 700px;
+   min-width: 300px;
+   text-align: center;
+   margin: auto;
+}
+
+.nftHomeContainerLight {
+   background: linear-gradient(0deg, #fafbfc, #5ba5f5);
+}
+.nftHomeContainerDark {
+   background: linear-gradient(0deg, #303030, #1e1c1c);
+}
+
+.ModernCard {
+   background-color: white;
+   opacity: 60%;
+}
+
+.MuliColorCard {
+   background-color: rgb(228, 226, 226);
+   padding: 5px;
+   box-shadow: 6px 6px 10px rgba(142, 141, 141, 0.3);
+
+}
+
+/* In your CSS file (e.g., styles.css) */
+
+.nftImage {
+   width: 300px;
+   height: 300px;
+   background-color: rebeccapurple;
+
+}
+
+.MySidebar {
+   width: 80%;
+   position: fixed;
+
+}
+
+.shadowEffectLight:hover {
+   background-color: #ebebee;
+   margin-left: 4px;
+   margin-right: 4px;
+   border-radius: 8px;
+}
+
+.shadowEffectDark:hover {
+   background-color: #525254;
+   margin-left: 4px;
+   margin-right: 4px;
+   border-radius: 8px;
+}
+
+.textstyle {
+   width: 100%;
+   white-space: inherit;
+   text-align: left
+}
+
+.ellipsedText {
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+}
+
+.ShadowEffect:hover {
+   box-shadow: 5px 5px 5px rgba(104, 104, 104, 0.3);
+}
+
+.OverFlowY {
+   overflow-y: scroll;
+}
+
+.Form {
+   max-width: 500px;
+   min-width: 300px;
+}
+
+
+.dropdown {
+   position: relative;
+   display: inline-block;
+   cursor: pointer;
+}
+
+.dropdown-content {
+   display: none;
+   position: absolute;
+   min-width: 160px;
+   z-index: 1;
+}
+
+.dropdown-content.nav-link:hover {
+   background-color: #8b8b8f;
+}
+
+.dropdown:hover .dropdown-content {
+   display: block;
+}
+
+.GlassEffect {
+   max-width: 500px;
+   min-width: 200px;
+   text-align: center;
+   z-index: 1;
+   height: fit-content;
+   color: #0e0e0e;
+   background: rgba(255, 255, 255, 0.2);
+   /* Semi-transparent background */
+   /* border-radius: 20px; Rounded corners */
+   backdrop-filter: blur(10px);
+   /* Blur effect */
+   -webkit-backdrop-filter: blur(10px);
+   /* Blur effect for Safari */
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   /* Subtle shadow */
+   border: 1px solid rgba(255, 255, 255, 0.3);
+   /* Light border */
+}
+
+.GlassEffectFordiv {
+   /* color: #0e0e0e; */
+   background: rgba(255, 255, 255, 0.2);
+   /* Semi-transparent background */
+   /* border-radius: 20px; Rounded corners */
+   backdrop-filter: blur(10px);
+   /* Blur effect */
+   -webkit-backdrop-filter: blur(10px);
+   /* Blur effect for Safari */
+   /* Subtle shadow */
+   border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.ButtonEffect {
+   background-color: lightslategray;
+}
+
+
+.backgroundDark {
+   background-image: url('images/BlueDark.jpg');
+   background-repeat: no-repeat;
+   /* Prevents the image from repeating */
+   background-size: cover;
+   /* Ensures the image covers the entire screen */
+   background-position: center;
+   /* Centers the image */
+   height: 100vh;
+   /* Ensures the body takes up the full viewport height */
+   margin: 0;
+   /* Removes default margin */
+}
+
+.backgroundLight {
+   background-image: url('https://img.freepik.com/free-vector/abstract-halftone-background_23-2148594784.jpg?t=st=1729673735~exp=1729677335~hmac=fdc74d99b0f75ad10a2f2aa02c11d8aefdee4f7311defedb94990c5060a83c32&w=1060');
+   background-size: cover;
+   /* Ensures the image covers the entire screen */
+   background-position: center;
+   /* Centers the image */
+   height: 100vh;
+   /* Ensures the body takes up the full viewport height */
+   margin: 0;
+   /* Removes default margin */
+}
+
+.ImageEffect {
+   box-shadow: 0px 0px 0px rgb(109, 108, 108);
+}
+
+.ImageEffect:hover {
+   box-shadow: 0px 0px 0px rgb(109, 108, 108);
+}
+
+.zoomContainer {
+   overflow: hidden;
+   /* Ensures the image doesn't overflow the container */
+   border-top-right-radius: 20px;
+   /* Rounded corners */
+   border-top-left-radius: 20px;
+}
+
+.zoomImage {
+   transition: transform 0.5s ease;
+   /* Smooth transition for the zoom effect */
+   cursor: pointer;
+}
+
+.zoomContainer:hover .zoomImage {
+   transform: scale(1.1);
+   /* Adjust the scale value to control the zoom level */
+}
+
+.zooEffectContainer {
+   border-top-right-radius: 20px;
+   /* Rounded corners */
+   border-top-left-radius: 20px;
+}
+
+.zoomEffect {
+   transition: transform 0.5s ease;
+   /* Smooth transition for the zoom effect */
+   cursor: pointer;
+}
+
+.zooEffectContainer:hover .zoomEffect {
+   transform: scale(1.05);
+   /* Adjust the scale value to control the zoom level */
+}
+
+
+
+.BuyButton {
+   background-color: #3694f1;
+   /* border-bottom: 1px solid rgba(255, 255, 255, 0.3);  */
+
+}
+
+.BuyButton:hover {
+   background-color: #1582f0;
+   /* border-bottom: 1px solid rgba(255, 255, 255, 0.3);  */
+
+}
+
+.LastSale {
+   display: flex;
+}
+
+.BuyButton {
+   display: none;
+}
+
+.ImageEffect:hover .BuyButton {
+   display: flex;
+   /* or inline-block, depending on your layout needs */
+}
+
+.ImageEffect:hover .LastSale {
+   display: none;
+   /* or inline-block, depending on your layout needs */
+}
+
+::-webkit-scrollbar {
+   display: none;
+}
+
+.MoreCollection {
+   overflow-y: scroll;
+   /* Ensure scrolling */
+}
+
+.MoreCollection::-webkit-scrollbar {
+   display: block;
+   cursor: pointer;
+   height: 10px;
+}
+
+.MoreCollection::-webkit-scrollbar-thumb {
+   background-color: rgba(107, 105, 105, 0.5);
+   /* Custom thumb color */
+   border-radius: 10px;
+   cursor:pointer;
+}
+.Parent{
+   
+   max-width: 600px;
+   min-width: 200px;
+   position: relative;
+}
+.Child{
+   height: 350px;
+   width: 400px;
+   z-index: 1;
+   position: absolute;
+   left: 70px;
+   margin-top: 115px;
+}
+
+/* ----------------------------- flip card effect --------------------------------------------- */
+.flip-card {
+   background-color: transparent;
+   width: 300px;
+   height: 200px;
+   border: 1px solid #f1f1f1;
+   perspective: 1000px; /* Remove this if you don't want the 3D effect */
+ }
+ 
+ /* This container is needed to position the front and back side */
+ .flip-card-inner {
+   position: relative;
+   width: 100%;
+   height: 100%;
+   text-align: center;
+   transition: transform 0.8s;
+   transform-style: preserve-3d;
+ }
+ 
+ /* Do an horizontal flip when you move the mouse over the flip box container */
+ .flip-card:hover .flip-card-inner {
+   transform: rotateY(180deg);
+ }
+ 
+ /* Position the front and back side */
+ .flip-card-front, .flip-card-back {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   -webkit-backface-visibility: hidden; /* Safari */
+   backface-visibility: hidden;
+ }
+ 
+ /* Style the front side (fallback if image is missing) */
+ .flip-card-front {
+   background-color: #bbb;
+   color: black;
+ }
+ 
+ /* Style the back side */
+ .flip-card-back {
+   background-color: dodgerblue;
+   color: white;
+   transform: rotateY(180deg);
+ }
+
+
+ /* ------------------------------------------ End ------------------------------------------ */
