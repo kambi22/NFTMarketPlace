@@ -8,7 +8,7 @@ const UploadToIPFS = (props) => {
   const [name, setName] = useState();
   const [description, setDescription] = useState();
 
-  const Jwt = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySW5mb3JtYXRpb24iOnsiaWQiOiIzOTZiMjQzNC01YmM5LTQyYTQtYWNjYi01MGUwMTE1NGZmYzIiLCJlbWFpbCI6ImthbWJpa290OEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwicGluX3BvbGljeSI6eyJyZWdpb25zIjpbeyJkZXNpcmVkUmVwbGljYXRpb25Db3VudCI6MSwiaWQiOiJGUkExIn0seyJkZXNpcmVkUmVwbGljYXRpb25Db3VudCI6MSwiaWQiOiJOWUMxIn1dLCJ2ZXJzaW9uIjoxfSwibWZhX2VuYWJsZWQiOmZhbHNlLCJzdGF0dXMiOiJBQ1RJVkUifSwiYXV0aGVudGljYXRpb25UeXBlIjoic2NvcGVkS2V5Iiwic2NvcGVkS2V5S2V5IjoiMWRlZDlhNjg5ODk1MGEwNTYyODYiLCJzY29wZWRLZXlTZWNyZXQiOiJiNWQ2MDc5OTlhMmJjNTgwYzAxNmM1ZDA3Zjc5NDU2MTgyMDVmMDViZWZkZTg1ODk0NTA4YzhlZmZlZjE3MjUyIiwiZXhwIjoxNzYwMDEwNzg4fQ.qWPLk2TCd6kIdmdGZL2m-ZkMZSNy6OGleoo0FrDC2Vs'
+  const Jwt = process.env.REACT_APP_PINATA_API_JWT;
   const pinata = new PinataSDK({
     pinataJwt: Jwt,
     pinataGateway: "https://gateway.pinata.cloud",

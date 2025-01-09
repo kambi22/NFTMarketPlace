@@ -15,7 +15,6 @@ import BuyNft from "./BuyNft";
 import EngAuctionBidding from "./EngAuctionBidding";
 import DutchAuctonBidding from "./DutAuctionBidding";
 import NftsHome from "./NftsHome";
-import Practice from "./practice";
 import PageNotFound from "./PageNotFound";
 
 const Routting = (props) => {
@@ -40,7 +39,6 @@ const Routting = (props) => {
           <Route path="/login" Component={Login} />
           <Route path="/simple" Component={Simple} />
           <Route path="/*" Component={PageNotFound} />
-          <Route path="/practice" Component={Practice} />
 
 
         </Routes>

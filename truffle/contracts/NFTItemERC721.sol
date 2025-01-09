@@ -60,6 +60,7 @@ contract MyNFT is ERC721URIStorage, Ownable {
             "Caller is not the owner of this NFT"
         );
         price[_tokenid] = _price;
+        
         approve(address(this), _tokenid); // Seller approves the contract to transfer their NFT
     }
 

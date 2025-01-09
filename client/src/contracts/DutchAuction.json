@@ -8571,15 +8571,15 @@
     "version": "0.8.20+commit.a1b79de6.Emscripten.clang"
   },
   "networks": {
-    "5777": {
+    "17000": {
       "events": {},
       "links": {},
-      "address": "0x38331d64F82775FA707463Ae95f11ead6010E274",
-      "transactionHash": "0x447f93d1c0f763f4fb1c7371b611074b2c66ca6e75c8b5636566cb5d33c056bd"
+      "address": "0x56d69268FaA84B8468d1F6404eE492fA588ED252",
+      "transactionHash": "0x762aa4e593aa42842342b2f6ba3d22b50c83ffd9bb66d21a1efaf3b3dec77d82"
     }
   },
   "schemaVersion": "3.4.16",
-  "updatedAt": "2024-12-03T09:21:53.021Z",
+  "updatedAt": "2025-01-06T08:06:21.812Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

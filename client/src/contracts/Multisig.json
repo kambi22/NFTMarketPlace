@@ -12127,15 +12127,15 @@
     "version": "0.8.20+commit.a1b79de6.Emscripten.clang"
   },
   "networks": {
-    "5777": {
+    "17000": {
       "events": {},
       "links": {},
-      "address": "0x44A6D408526aD5942300D36009c802A450a6f70C",
-      "transactionHash": "0xcf80538a18c70429b4bd1a3a4afc372542c1842f3338be132e10f4f274282aba"
+      "address": "0x9f194BBD3Cad690A31Ef8d4A0062354EAbdc49F7",
+      "transactionHash": "0x414c528e2c57d61acabc9a6808acfc0eca98dad677f13d8d8aa0db8835afa4b1"
     }
   },
   "schemaVersion": "3.4.16",
-  "updatedAt": "2024-12-03T09:21:53.068Z",
+  "updatedAt": "2025-01-06T08:06:21.856Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

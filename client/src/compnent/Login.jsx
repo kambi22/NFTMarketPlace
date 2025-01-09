@@ -5,8 +5,6 @@ import { MdVisibility, MdVisibilityOff  } from "react-icons/md";
 import { Player } from "@lottiefiles/react-lottie-player";
 import Swal from 'sweetalert2'
 import {notify, toast} from "./Notify";
-import icon from './icon.json'
-import softwork from './images/Softwork.png'
 import { themeContext } from "../Context/themeContext";
 const Login = (props) => {
   const { isDark, toggleTheme } = useContext(themeContext);

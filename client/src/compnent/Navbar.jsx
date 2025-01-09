@@ -43,7 +43,7 @@ const Header = (props) => {
               <img src={white} className={!isDark ? 'd-inline' : 'd-none'} alt="logo" style={{ height: '30px' }} />
               {/* <img src="darkblue.png" className={!isDark ? 'd-inline' : 'd-none'}  alt='logo' style={{height:'30px'}} /> */}
               <img src={gold} className={isDark ? 'd-inline' : 'd-none'} alt="logo" style={{ height: '30px' }} />
-              <strong data-aos="fade-right" className={!isDark ? 'ColoredLight' : 'ColoredDark'}>Softwork</strong>
+              <strong  className={!isDark ? 'ColoredLight' : 'ColoredDark'}>Softwork</strong>
             </Navbar.Brand>
           </div>
           <Nav className="">
@@ -61,7 +61,6 @@ const Header = (props) => {
             </div>
             <Nav.Link className={!isDark ? 'ColoredLight d-none d-md-inline ms-2' : 'ColoredDark d-none d-md-inline'} onClick={() => navigate('/multisignature-wallet')}>Multisig-Wallet</Nav.Link>
             <Nav.Link className={!isDark ? 'ColoredLight d-none d-md-inline' : 'ColoredDark d-none d-md-inline'} onClick={() => navigate('/login')}>Login</Nav.Link>
-            <Nav.Link className={!isDark ? 'ColoredLight d-none d-md-inline' : 'ColoredDark d-none d-md-inline'} onClick={() => navigate('/practice')}>Practice</Nav.Link>
           </Nav>
           <Nav className="" >
 
@@ -76,7 +75,6 @@ const Header = (props) => {
             {/* <Button   className={!isDark ? 'mt-2 shadow rounded-2 d-none d-md-inline' : 'mt-2 shadow rounded-2 d-none d-md-inline'} variant="" style={{ height: '40px',position:'' }} onClick={() => ConnectWallet()}>Connect</Button> */}
           </Nav>
         </Container>
-
 
 
       </Navbar>

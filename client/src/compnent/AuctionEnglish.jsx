@@ -1,6 +1,5 @@
 import React, { useContext, useEffect, useState } from "react"
 import { CardHeader, Col, Container, Row } from "react-bootstrap";
-import gold from './images/bols.jpeg'
 import { Alert, AlertTitle, Button, Card, CardActionArea, CardContent, div, Fab, InputAdornment, TextField, Tooltip } from "@mui/material";
 import { MdAutoGraph, MdFavorite, MdFavoriteBorder, MdShower } from "react-icons/md";
 import { HiMenuAlt2 } from "react-icons/hi";

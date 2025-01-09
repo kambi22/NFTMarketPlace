@@ -1,10 +1,15 @@
-// const Multisig = artifacts.require("Multisig");
+// const Storage = artifacts.require("Storage");
 
+// module.exports = function(deployer) {
+//   deployer.deploy(Storage);
+// };
+
+// const Multisig = artifacts.require("Multisig");
 // module.exports = function(deployer) {
 //   deployer.deploy(Multisig);
 // };
-// const DutchAuction = artifacts.require("DutchAuction");
 
+// const DutchAuction = artifacts.require("DutchAuction");
 // module.exports = function(deployer) {
 //   deployer.deploy(DutchAuction);
 // };

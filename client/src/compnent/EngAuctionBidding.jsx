@@ -1,6 +1,5 @@
 import React, { useContext, useEffect, useState } from "react"
 import { CardHeader, Col, Container, Row } from "react-bootstrap";
-import gold from './images/bols.jpeg'
 import { Button, Card, CardActionArea, CardContent, div, TextField } from "@mui/material";
 import { MdAutoGraph, MdFavorite, MdFavoriteBorder, MdShower } from "react-icons/md";
 import { HiMenuAlt2 } from "react-icons/hi";
@@ -11,7 +10,6 @@ import { BlockchainContext } from "../Web3Connection/Connection";
 import { IoMdCart } from "react-icons/io";
 import { notify, toast } from "./Notify";
 import { Player } from "@lottiefiles/react-lottie-player";
-import monky from './images/monkynft.jpg'
 import { timeline } from "animejs";
 const EngAuctionBidding = (props) => {
     const { web, nftContract, engContract, nftContAddress, account } = useContext(BlockchainContext)

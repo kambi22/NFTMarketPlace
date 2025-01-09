@@ -41,9 +41,9 @@
  * https://trufflesuite.com/docs/truffle/getting-started/using-the-truffle-dashboard/
  */
 
-// require('dotenv').config();
-// const { MNEMONIC, PROJECT_ID } = process.env;
-const MNEMONIC = "";
+require('dotenv').config();
+const { MNEMONIC, PROJECT_ID} = process.env;
+
  const HDWalletProvider = require('@truffle/hdwallet-provider');
 
 module.exports = {
@@ -93,7 +93,7 @@ module.exports = {
     //   skipDryRun: true     // Skip dry run before migrations? (default: false for public nets )
     // },
     sepolia: {//deploy comand: truffle migrate --network sepolia
-      provider: () => new HDWalletProvider(MNEMONIC, `https://eth-sepolia.g.alchemy.com/v2/bH6g3Tcnvw4YcwzBU89gV3zaFj24hNxZ`),
+      provider: () => new HDWalletProvider(MNEMONIC, `https://eth-sepolia.g.alchemy.com/v2/${PROJECT_ID}`),
       network_id: 11155111,       // Sepolia's id
       confirmations: 2,    // # of confirmations to wait between deployments. (default: 0)
       gas: 3000000,
@@ -110,8 +110,8 @@ module.exports = {
     //   timeoutBlocks: 200,  // # of blocks before a deployment times out  (minimum/default: 50)
     //   skipDryRun: true     // Skip dry run before migrations? (default: false for public nets )
     // },
-    holesky: {//deploy comand: truffle migrate --network holesky
-      provider: () => new HDWalletProvider(MNEMONIC, `https://eth-holesky.g.alchemy.com/v2/17BWgymn4oK5rVVYokEkCVvSow5yjiE2`),
+    holesky: {//deploy comand: truffle migrate --network holesky 
+      provider: () => new HDWalletProvider(MNEMONIC, `https://eth-holesky.g.alchemy.com/v2/${PROJECT_ID}`),
       network_id: 17000, // Holesky network ID
       confirmations: 2, // Number of confirmations to wait between deployments
       gas: 3000000,
